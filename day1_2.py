@@ -1,0 +1,12 @@
+#this code is to generate raadom tames for kids
+name1=input("Write name of mother ")
+name2=input("Write name of father ")
+len1=int(len(name1)/2)
+len2=int(len(name2)/2)
+print("Given below are few ideal names: ")
+print(name1[0:len1]+name2[-len2:])
+print(name2[0:len1]+name1[-len2:])
+print(name1[-len1:]+name2[:len2])
+print(name2[-len1:]+name1[len2:])
+print(name2[-len1:]+name1[-len2])
+print(name2[:len1]+name1[:len2])
